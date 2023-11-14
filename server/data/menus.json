@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Caramelized corn pizza",
+    "description": "This caramelized corn (maize) pizza is altogether tough with a greasy texture. It indicates blackcurrant with horehound and has poppy seeds. It smells fresh with pummelo. It is official and governmental. You can really feel how soy free and how high fiber it is.",
+    "imgUrl": "https://www.kitchen-concoctions.com/wp-content/uploads/2017/08/Corn-Prosciutto-and-Caramelized-Onion-Pizza-photograph-480x360.jpg",
+    "price": 10,
+    "UserId": 1,
+    "CategoryId": 2
+  },
+  {
+    "name": "Whipped pumpkin bowl",
+    "description": "This whipped pumpkin bowl is entirely stringy with a burned texture. It reeks of brazil nuts with lemon balm and has a dash of bay. It smells pleasant with a lot of kiwifruit. It is rather neutral. You can really feel how GMP certified and how high in magnesium it is.",
+    "imgUrl": "https://www.flavormosaic.com/wp-content/uploads/2019/10/Pumpkin-Fluff-with-Cool-Whip-And-Marshmallows-3-334x500.jpg",
+    "price": 6,
+    "UserId": 1,
+    "CategoryId": 3
+  },
+  {
+    "name": "Braised hazelnuts pudding",
+    "description": "This braised hazelnuts / filberts pudding is entirely flaky with a flaky texture. It compares to kohlrabi with sweet bay and has curry powder. It smells gaseous with just the right amount of currants. It is salty sweet. You can really feel how premium and how high in magnesium it is.",
+    "imgUrl": "https://kjandcompany.co/wp-content/uploads/2021/01/Chocolate-Hazelnut-Pudding-3.jpg",
+    "price": 4,
+    "UserId": 1,
+    "CategoryId": 3
+  }
+]

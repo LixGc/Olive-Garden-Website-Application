@@ -1,0 +1,34 @@
+[
+  {
+    "name": "300gr corn",
+    "MenuId": 1
+  },
+  {
+    "name": "900gr flour",
+    "MenuId": 1
+  },
+  {
+    "name": "2 tsb caramel",
+    "MenuId": 1
+  },
+  {
+    "name": "300gr pumpkin",
+    "MenuId": 2
+  },
+  {
+    "name": "200gr brazil nuts with lemon",
+    "MenuId": 2
+  },
+  {
+    "name": "100gr jelly powder",
+    "MenuId": 3
+  },
+  {
+    "name": "1/2 tsb curry powder",
+    "MenuId": 3
+  },
+  {
+    "name": "100gr hazelnut",
+    "MenuId": 3
+  }
+]

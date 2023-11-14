@@ -1,0 +1,523 @@
+@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+
+:root {
+  --primary-color: #c98d83;
+  --secondary: #783b31;
+  --bg: #f2f1ec;
+  --black: #000;
+  --white: #fff;
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Vidaloka", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+/* header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--bg);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: var(--black);
+  display: flex; /* Add this property */
+  align-items: center; /* Vertically align the logo with the navigation links */
+}
+
+.header .logo i {
+  color: var(--secondary);
+  padding-right: 0.5rem;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center; /* Vertically align the navigation links */
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: var(--black);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  color: var(--primary-color);
+}
+
+.header .icons div {
+  font-size: 2.5rem;
+  margin-left: 1.7rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.header .icons div:hover {
+  color: var(--primary-color);
+}
+.nav-img {
+  height: 10vh;
+}
+.login-navbar {
+  display: flex;
+  align-items: center;
+}
+.logo-totebag {
+  max-width: 5vh;
+}
+
+#menu-btn {
+  display: none;
+}
+
+.heading {
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+
+.styled-button {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  padding: 1.5rem 3.5rem;
+  /* Larger size */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Semi-transparent black background */
+  color: #ffffff;
+  font-size: 1.7rem;
+  border: 2px solid #ffffff;
+  /* White border */
+  cursor: pointer;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+  /* Apply blur effect */
+}
+.video {
+  height: 80vh !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+
+.inside-video-text {
+  position: relative;
+  text-align: center;
+}
+
+.text-medium {
+  font-family: "og_brothermedium", sans-serif !important;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 4em;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.text-medium2 {
+  font-family: "og_brothermedium", sans-serif !important;
+  position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 4em;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.content-container {
+  position: absolute;
+  bottom: 20px;
+  /* Adjust this value to control the vertical position within the image */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.styled-button-2 {
+  color: #ffffff;
+  font-size: 1.7rem;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 10px 20px;
+  padding: 1.5rem 3.5rem;
+  /* Larger size */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Semi-transparent black background */
+  backdrop-filter: blur(10px);
+  /* Apply blur effect */
+}
+
+.text-container {
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: medium;
+  font-weight: 600;
+  /* Adjust this value to control the spacing between the button and text */
+}
+.text-container2 {
+  color: #ffffff;
+  margin-bottom: 20%;
+  font-size: 14px;
+  font-family: "og_brothermedium", sans-serif !important;
+}
+
+.heading {
+  text-align: center;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  padding: 1.2rem 0;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+
+/* banner */
+
+.banner {
+  background-size: cover !important;
+  background-position: center !important;
+}
+.span-banner {
+  font-size: 14px;
+}
+
+.banner img {
+  margin-top: 3rem;
+  height: 100vh;
+  width: 100%;
+}
+
+/* banner end*/
+
+/* about */
+
+.about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .row .image {
+  flex: 1 1 40rem;
+}
+
+.about .row .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+  color: var(--black);
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.about .row .content h3 span {
+  color: var(--secondary);
+}
+
+.about .row .content p {
+  font-size: 1.4rem;
+  color: #444;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+/* about end*/
+
+/* MENU */
+.menu {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* Adjust the gap between columns */
+  padding-left: 20vh;
+  padding-right: 20vh;
+  gap: 10px;
+}
+
+.food-items {
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  max-width: 50vh;
+  /* Reduce the width of the card */
+  margin: 0 auto;
+  /* Center align the cards */
+}
+
+.food-items img {
+  position: relative;
+  width: 100%;
+  height: 35vh;
+  border-radius: 15px 15px 0 0;
+}
+.food-items button:hover {
+  cursor: pointer;
+  background-color: rgb(141, 72, 23);
+}
+
+.details {
+  padding: 20px 10px;
+  display: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow here */
+}
+
+.details-sub {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.details-sub > h5 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.price {
+  text-align: right;
+}
+
+.details > p {
+  color: #6f6f6f;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.details > button {
+  background-color: rgb(162, 64, 42);
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 20vh;
+  margin-left: 30vh;
+}
+
+/* detail menu */
+/* Container styles */
+.menu-detail-container {
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.menu-detail-container {
+  display: flex;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: 67vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Image styles */
+.menu-detail-image {
+  flex: 1;
+  border-radius: 0 10px 10px 0;
+  height: auto;
+  width: 100%;
+}
+
+.menu-detail-details {
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.menu-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menu-detail-description {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* Price styles */
+.menu-detail-price {
+  font-size: 20px;
+  color: #cc0000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+  background-image: url("https://media.olivegarden.com/images/site/bk-olive-branch.png");
+  background-size: cover;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  max-width: 20rem;
+}
+
+.footer-section h4 {
+  margin: 10px 0;
+  color: #ffffff;
+  font-family: "og_brothermedium", sans-serif;
+  font-size: 20px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #ffffff;
+  /* White color for links */
+  margin: 5px 0;
+}
+
+.trademarks {
+  color: #ffffff;
+  /* White color for the trademarks */
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-links p {
+  margin: 0;
+  color: #ffffff;
+  /* White color for the "|" separators */
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  /* Adjust styles for screens with a maximum width of 450px */
+  html {
+    font-size: 50%;
+    /* Reduce the base font size for smaller screens */
+  }
+
+  .styled-button {
+    top: 80%;
+    /* Further adjust the button's vertical position */
+  }
+
+  .banner .content-container {
+    bottom: 5%;
+    /* Further adjust the content's vertical position */
+  }
+  .content-container .span-banner {
+    font-size: 5px !important;
+  }
+}

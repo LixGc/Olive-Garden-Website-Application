@@ -1,0 +1,101 @@
+{
+  "Items": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "description": "fast-food",
+      "price": 4,
+      "imgUrl": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+      "userId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Burger2",
+      "description": "fast-food2",
+      "price": 5,
+      "imgUrl": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+      "authorId": 2,
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "name": "Burger3",
+      "description": "fast-food3",
+      "price": 6,
+      "imgUrl": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+      "authorId": 3,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "Burger4",
+      "description": "fast-food",
+      "price": 4,
+      "imgUrl": "https://www.foodandwine.com/thmb/pwFie7NRkq4SXMDJU6QKnUKlaoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Ultimate-Veggie-Burgers-FT-Recipe-0821-5d7532c53a924a7298d2175cf1d4219f.jpg",
+      "userId": 3,
+      "categoryId": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Felix",
+      "email": "felix@g.com",
+      "role": "admin",
+      "phoneNumber": "08213123",
+      "address": "TEstdgagd"
+    },
+    {
+      "id": 2,
+      "username": "Felix2",
+      "email": "felix2@g.com",
+      "role": "customer",
+      "phoneNumber": "31312",
+      "address": "adawd"
+    },
+    {
+      "id": 3,
+      "username": "Felix3",
+      "email": "felix3@g.com",
+      "role": "customer",
+      "phoneNumber": "313131232",
+      "address": "adawadwd"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "fastt-fooodd"
+    },
+    {
+      "id": 2,
+      "name": "poison"
+    },
+    {
+      "id": 3,
+      "name": "medicine"
+    },
+    {
+      "id": 4,
+      "name": "medicine"
+    }
+  ],
+  "Ingredients": [
+    {
+      "id": 1,
+      "ItemId": 1,
+      "name": "150 gram of sugar, 500 gram of premium beef, 20 gram of salt, 20 gram of chilli powder, 2 bread buns, some lettuces"
+    },
+    {
+      "id": 2,
+      "ItemId": 2,
+      "name": "150 gram of sugar, 500 gram of premium beef, 20 gram of salt, 20 gram of chilli powder, 2 bread buns, some lettuces"
+    },
+    {
+      "id": 3,
+      "ItemId": 3,
+      "name": "150 gram of sugar, 500 gram of premium beef, 20 gram of salt, 20 gram of chilli powder, 2 bread buns, some lettuces"
+    }
+  ]
+}
